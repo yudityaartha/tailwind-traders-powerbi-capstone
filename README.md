@@ -79,9 +79,8 @@ df
 ## 📸 Report Screenshots
 *See `/visuals/` folder for snapshots of each dashboard page.*
 
----
 
-## 📸 Report Screenshots
+## Screenshots
 ![main](visuals/Sales_Overview.png)
 ### Sales Overview Dashboard
 ![main](visuals/Profit_Overview.png)
