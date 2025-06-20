@@ -84,10 +84,7 @@ df
 ## 📸 Report Screenshots
 
 ### Sales Overview Dashboard
-![Sales Dashboard](visuals/sales_overview.png)
-
-### Profit Overview Dashboard
-![Profit Dashboard](visuals/profit_dashboard.png)
+![Sales Dashboard](visuals/SalesProfit_Overview.png)
 
 ## 🏁 Outcome
 This capstone demonstrates my ability to:
