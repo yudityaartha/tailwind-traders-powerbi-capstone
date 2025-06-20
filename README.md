@@ -1,9 +1,10 @@
 # 📊 Power BI Capstone: Tailwind Traders Business Insights
+**A multi-page Power BI business dashboard for Tailwind Traders: built with DAX, performance optimization, and storytelling principles.**
 
 ## 🧠 Objective
 This project presents an interactive Power BI report built for **Tailwind Traders**, a retail company seeking better visibility into their **sales performance**, **profitability**, and **operational efficiency**.
 
-The report includes **Sales**, **Profit**, and **DAX-based aggregation** dashboards — all developed in a single Power BI `.pbix` file with performance optimization practices applied.
+The report includes **Sales**, **Profit**, and **DAX-based aggregation** dashboards, all developed in a single Power BI `.pbix` file with performance optimization practices applied.
 
 ---
 
@@ -80,11 +81,13 @@ df
 
 ---
 
-## 📁 Files Included
-- `Tailwind_Traders_Report.pbix` – Full interactive report with 3+ dashboards and optimized visuals  
-- `/visuals/` – Screenshot files for preview on GitHub/LinkedIn  
+## 📸 Report Screenshots
 
----
+### Sales Overview Dashboard
+![Sales Dashboard](visuals/sales_overview.png)
+
+### Profit Overview Dashboard
+![Profit Dashboard](visuals/profit_dashboard.png)
 
 ## 🏁 Outcome
 This capstone demonstrates my ability to:
@@ -92,3 +95,10 @@ This capstone demonstrates my ability to:
 - Write efficient DAX for time-based analysis
 - Optimize Power BI reports using built-in diagnostics
 - Translate raw business data into stakeholder-facing reports
+
+---
+
+## 📁 Files Included
+- `Tailwind_Traders_Report.pbix` – Full interactive report with 3+ dashboards and optimized visuals  
+- `/visuals/` – Screenshot files for preview on GitHub/LinkedIn  
+
