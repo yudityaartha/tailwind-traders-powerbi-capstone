@@ -98,3 +98,10 @@ This capstone demonstrates my ability to:
 - `Tailwind_Traders_Report.pbix` – Full interactive report with dashboards and optimized visuals  
 - `/visuals/` – Screenshot files for preview on GitHub/LinkedIn  
 
+---
+
+## Author
+
+**Yuditya Artha**  
+Data Analyst | SQL | Python | R | Power BI | Tableau  
+[LinkedIn](https://www.linkedin.com/in/yuditya-artha) | [GitHub](https://github.com/yudityaartha)
