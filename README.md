@@ -1,25 +1,25 @@
-# 📊 Power BI Capstone: Tailwind Traders Business Insights
+# Power BI Capstone: Tailwind Traders Business Insights
 **A multi-page Power BI business dashboard for Tailwind Traders: built with DAX, performance optimization, and storytelling principles.**
 
-## 🧠 Objective
+## Objective
 This project presents an interactive Power BI report built for **Tailwind Traders**, a retail company seeking better visibility into their **sales performance**, **profitability**, and **operational efficiency**.
 
 The report includes **Sales**, **Profit**, and **DAX-based aggregation** dashboards, all developed in a single Power BI `.pbix` file with performance optimization practices applied.
 
 ---
 
-## 🧰 Tools & Skills Used
+## Tools & Skills Used
 - Microsoft Power BI Desktop
 - Data Modelling  
-- DAX (MEDIAN, TOTALYTD, DATESQTD, DIVIDE, etc.)  
+- DAX (MEDIAN, TOTALYTD, DATESQTD & DIVIDE)  
 - Performance Analyzer  
 - KPI cards, slicers, time intelligence  
 - Dashboard structuring & storytelling  
 
 ---
 
-## 📄 Report Structure (All in One `.pbix`)
-### 📈 **Sales Overview Page**
+## Report Structure (All in One `.pbix`)
+### **Sales Overview Page**
 - **Bar Chart**: Loyalty Points by Country  
 - **Column Chart**: Quantity Sold by Product  
 - **Pie Chart**: Median Sales by Country  
@@ -27,7 +27,7 @@ The report includes **Sales**, **Profit**, and **DAX-based aggregation** dashboa
 - **KPI Cards**: Stock, Quantity Purchased, Median Sales  
 - **Slicer**: Country filter for interactivity  
 
-### 💰 **Profit Overview Page**
+### **Profit Overview Page**
 - **Bar Chart**: Net Revenue by Product  
 - **Donut Chart**: Yearly Profit Margin by Country  
 - **Area Chart**: Yearly Profit Margin Over Time  
@@ -35,12 +35,12 @@ The report includes **Sales**, **Profit**, and **DAX-based aggregation** dashboa
 - **KPI Visual**: Gross Revenue trend  
 - **Slicer**: Date range control  
 
-### 🧮 **Calculated Table**
+### **Calculated Table**
 - Created Calculated Table:  
   - `Calendar Table`  
   - `Sales in USD`
 
-### 🧮 **Load Table from python script**
+### **Load Table from python script**
   - `Historical Currency Exchange data python script`
 ```    
 import pandas as pd
@@ -57,7 +57,7 @@ df = pd.read_csv(StringIO(data), sep=';')
 df
 ```
   
-### 🧮 **DAX Aggregation & Performance Page**
+### **DAX Aggregation & Performance Page**
 - Created DAX measures:  
   - `Yearly Profit Margin`  
   - `Quarterly Profit (DATESQTD)`  
@@ -68,15 +68,15 @@ df
 
 ---
 
-## 🔍 Key Insights
-- Sales are uneven across countries — some with high loyalty points show low profitability.  
+## Key Insights
+- Sales are uneven across countries, some with high loyalty points show low profitability.  
 - Median-based metrics revealed outliers hidden by averages.  
 - DAX aggregations allowed detailed profitability breakdowns YTD and quarterly.  
-- Performance Analyzer reduced visual loading bottlenecks by >40%.  
+- Performance Analyzer shows performances is not exceeding 400 ms.  
 
 ---
 
-## 📸 Report Screenshots
+## Report Screenshots
 *See `/visuals/` folder for snapshots of each dashboard page.*
 
 
@@ -85,7 +85,7 @@ df
 ### Sales Overview Dashboard
 ![main](visuals/Profit_Overview.png)
 
-## 🏁 Outcome
+## Outcome
 This capstone demonstrates my ability to:
 - Build layered, interactive dashboards with dynamic metrics
 - Write efficient DAX for time-based analysis
@@ -94,7 +94,7 @@ This capstone demonstrates my ability to:
 
 ---
 
-## 📁 Files Included
-- `Tailwind_Traders_Report.pbix` – Full interactive report with 3+ dashboards and optimized visuals  
+## Files Included
+- `Tailwind_Traders_Report.pbix` – Full interactive report with dashboards and optimized visuals  
 - `/visuals/` – Screenshot files for preview on GitHub/LinkedIn  
 
