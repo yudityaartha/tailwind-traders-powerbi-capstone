@@ -77,12 +77,15 @@ df
 ---
 
 ## Report Screenshots
-*See `/visuals/` folder for snapshots of each dashboard page.*
+*See `/visuals/` folder for snapshots.*
 
 
 ## Screenshots
-![main](visuals/Sales_Overview.png)
+### Data Modelling
+
 ### Sales Overview Dashboard
+![main](visuals/Sales_Overview.png)
+### Sales Profit Dashboard
 ![main](visuals/Profit_Overview.png)
 
 ## Outcome
