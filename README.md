@@ -87,6 +87,7 @@ df
 ### **DAX Aggregation & Performance Page**
 - Created DAX measures:  
   - `Yearly Profit Margin`
+    
     ```
     Yearly Profit Margin =
     DIVIDE(
@@ -95,6 +96,7 @@ df
     )
     ```
   - `Quarterly Profit (DATESQTD)`
+    
     ```
      Quarterly Profit Margin = 
     CALCULATE(
@@ -102,11 +104,13 @@ df
     DATESQTD('CalendarTable'[Date]))
     ```
   - `YTD Profit (TOTALYTD)`
+    
     ```
     YTD Profit Margin =
     TOTALYTD([Yearly Profit Margin],'CalendarTable'[Date])
     ```
   - `Median Sales (MEDIAN)`
+    
     ```
     Median Sales = MEDIAN('Sales in USD'[Gross Revenue USD])
     ```
