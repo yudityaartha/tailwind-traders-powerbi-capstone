@@ -52,7 +52,20 @@ The report includes **Sales**, **Profit**, and **DAX-based aggregation** dashboa
     ```
     
   - `Sales in USD`
-
+ 
+    ```
+    Sales in USD = 
+    ADDCOLUMNS(
+    Sales,
+    "Country Name", RELATED(Countries[Country]),
+    "Exchange Rate", RELATED('Exchange Data'[Exchange Rate]),
+    "Exchange Currency", RELATED('Exchange Data'[Exchange Currency]),
+    "Cost per Unit USD", [Cost per Unit] * RELATED('Exchange Data'[Exchange Rate]),
+    "Gross Revenue USD", [Gross Revenue] * RELATED('Exchange Data'[Exchange Rate]),
+    "Net Revenue USD", [Net Revenue] * RELATED('Exchange Data'[Exchange Rate]),
+    "Total Tax USD", [Total Tax] * RELATED('Exchange Data'[Exchange Rate]),
+    "Profit USD", [Profit] * RELATED('Exchange Data'[Exchange Rate])
+    ```
 
 ### **Load Table from python script**
   - `Historical Currency Exchange data python script`
