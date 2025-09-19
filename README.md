@@ -37,8 +37,8 @@ The report includes **Sales**, **Profit**, and **DAX-based aggregation** dashboa
 
 ### **Calculated Table**
 - Created Calculated Table:  
-  - `Calendar Table`  
-    ```    
+  - `Calendar Table`
+    ```
 CalendarTable = 
 ADDCOLUMNS(
 CALENDAR(DATE(2020, 1, 1), DATE(2023, 12, 31)),
@@ -49,7 +49,7 @@ CALENDAR(DATE(2020, 1, 1), DATE(2023, 12, 31)),
 "Weekday", WEEKDAY([Date]),
 "Day", DAY([Date])
 )
-```
+    ```
   - `Sales in USD`
 
 
