@@ -65,7 +65,6 @@ ADDCOLUMNS(
     "Total Tax USD", [Total Tax] * RELATED('Exchange Data'[Exchange Rate]),
     "Profit USD", [Profit] * RELATED('Exchange Data'[Exchange Rate])
 )
-
 ```
 ### **Load Table from python script**
   - `Historical Currency Exchange data python script`
