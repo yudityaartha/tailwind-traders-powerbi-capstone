@@ -39,17 +39,18 @@ The report includes **Sales**, **Profit**, and **DAX-based aggregation** dashboa
 - Created Calculated Table:  
   - `Calendar Table`
     ```
-CalendarTable = 
-ADDCOLUMNS(
-CALENDAR(DATE(2020, 1, 1), DATE(2023, 12, 31)),
-"Year", YEAR([Date]),
-"Month Number", MONTH([Date]),
-"Month", FORMAT([Date], "MMMM"),
-"Quarter", QUARTER([Date]),
-"Weekday", WEEKDAY([Date]),
-"Day", DAY([Date])
-)
+    CalendarTable = 
+    ADDCOLUMNS(
+    CALENDAR(DATE(2020, 1, 1), DATE(2023, 12, 31)),
+    "Year", YEAR([Date]),
+    "Month Number", MONTH([Date]),
+    "Month", FORMAT([Date], "MMMM"),
+    "Quarter", QUARTER([Date]),
+    "Weekday", WEEKDAY([Date]),
+    "Day", DAY([Date])
+    )
     ```
+    
   - `Sales in USD`
 
 
