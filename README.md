@@ -82,7 +82,7 @@ df
 
 ## Screenshots
 ### Data Modelling
-
+![main](visuals/Data_Modelling.png)
 ### Sales Overview Dashboard
 ![main](visuals/Sales_Overview.png)
 ### Sales Profit Dashboard
