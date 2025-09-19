@@ -86,10 +86,30 @@ df
   
 ### **DAX Aggregation & Performance Page**
 - Created DAX measures:  
-  - `Yearly Profit Margin`  
-  - `Quarterly Profit (DATESQTD)`  
-  - `YTD Profit (TOTALYTD)`  
-  - `Median Sales (MEDIAN)`  
+  - `Yearly Profit Margin`
+    ```
+    Yearly Profit Margin =
+    DIVIDE(
+    SUM('Sales in USD'[Profit USD]),
+    SUM('Sales in USD'[Net Revenue USD])
+    )
+    ```
+  - `Quarterly Profit (DATESQTD)`
+    ```
+     Quarterly Profit Margin = 
+    CALCULATE(
+    [Yearly Profit Margin],
+    DATESQTD('CalendarTable'[Date]))
+    ```
+  - `YTD Profit (TOTALYTD)`
+    ```
+    YTD Profit Margin =
+    TOTALYTD([Yearly Profit Margin],'CalendarTable'[Date])
+    ```
+  - `Median Sales (MEDIAN)`
+    ```
+    Median Sales = MEDIAN('Sales in USD'[Gross Revenue USD])
+    ```
 - Tested visuals using **Performance Analyzer** to ensure load time < 400ms  
 - Removed unnecessary visuals post-optimization  
 
